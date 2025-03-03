@@ -1,0 +1,22 @@
+class program {
+    program () {
+        // Escribe un programa de Karel que haga que
+        //Karel esté orientado al Norte, desde
+        //cualquier dirección inicial, y a continuación
+        //se apague. Debería terminar en la misma
+        //intersección en la que empezó.
+        if(facingEast){
+        	turnleft();
+        }
+        if(facingSouth){
+        	turnleft();
+        turnleft();
+        }
+        if(facingWest){
+        	turnleft();
+        turnleft();
+        turnleft();
+        }
+        turnoff();
+    }
+}
